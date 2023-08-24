@@ -1,0 +1,15 @@
+/* #LAYOUT - MAIN
+		1. Main default
+    2. Main responsive
+*/
+
+// 1. Main default
+.l-main {
+  flex: 1;
+  width: 100%;
+  margin: 0 auto;
+}
+
+// 2. Main responsive
+@media screen and (max-width: $PX_990) {
+}

@@ -1,0 +1,17 @@
+/* #COMPONENT - SWAP
+		1. Swap default
+    2. Swap responsive
+*/
+
+// 1. Swap default
+.swap {
+  position: absolute;
+  top: $PX_72;
+  left: 0;
+  transform: translate(-50%, 0);
+  z-index: 2;
+}
+
+// 2. Swap responsive
+@media screen and (max-width: $PX_990) {
+}

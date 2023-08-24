@@ -1,0 +1,38 @@
+/* #COMPONENT - PHISHING
+		1. Phishing default
+    2. Phishing responsive
+*/
+
+// 1. Phishing default
+.phishing {
+  padding: $PX_10;
+  background-color: $BLACK;
+}
+.phishing__container {
+  @extend .l-container;
+  @extend .l-container--md;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: $PX_24;
+}
+.phishing p,
+.phishing span,
+.phishing a {
+  color: $WHITE;
+}
+.phishing span,
+.phishing a {
+  font-family: $FONT_BOLD;
+}
+.phishing p {
+  font-size: $PX_12;
+}
+.phishing span {
+  text-transform: uppercase;
+}
+
+// 2. Phishing responsive
+@media screen and (max-width: $PX_990) {
+}

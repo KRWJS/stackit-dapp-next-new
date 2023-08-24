@@ -1,0 +1,26 @@
+/* #BASE - BASE */
+html {
+  @include font-smoothing(antialiased);
+  font-family: $FONT_REGULAR;
+  background-color: $WHITE;
+}
+body {
+  text-rendering: optimizeLegibility;
+}
+body:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  background: $LIGHT_GREY;
+  clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 40vh);
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+* {
+  box-sizing: border-box;
+}

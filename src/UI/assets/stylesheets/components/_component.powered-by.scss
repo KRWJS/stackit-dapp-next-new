@@ -1,0 +1,26 @@
+/* #COMPONENT - POWERED BY
+		1. Powered by default
+    2. Powered by responsive
+*/
+
+// 1. Powered by default
+.powered-by,
+.powered-by__item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.powered-by {
+  gap: $PX_16;
+}
+.powered-by__item {
+  gap: $PX_6;
+}
+.powered-by__item:last-child {
+  border-left: $PX_1 solid $LIGHT_GREY;
+  padding-left: $PX_16;
+}
+
+// 2. Powered by responsive
+@media screen and (max-width: $PX_990) {
+}

@@ -1,0 +1,33 @@
+/* #COMPONENT - BANNER WIDGET
+		1. Banner widget default
+    2. Banner widget responsive
+*/
+
+// 1. Banner widget default
+.banner-widget {
+  display: flex;
+  justify-content: space-between;
+  padding: $PX_25;
+  background-color: $WHITE;
+  border-radius: $PX_8;
+  gap: $PX_50;
+}
+.banner-widget p {
+  text-transform: uppercase;
+  font-size: $PX_12 !important;
+  letter-spacing: $PX_1;
+  line-height: $PX_18 !important;
+  margin-bottom: $PX_8;
+}
+.banner-widget h4 {
+  font-family: $FONT_DM_MEDIUM;
+  font-size: $PX_16;
+}
+.banner-widget__left,
+.banner-widget__right {
+  text-align: right;
+}
+
+// 2. Banner widget responsive
+@media screen and (max-width: $PX_990) {
+}

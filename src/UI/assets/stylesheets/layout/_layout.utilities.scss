@@ -1,0 +1,106 @@
+/* #LAYOUT - UTILITIES
+		1. Margin
+    2. Margin responsive
+    3. Padding
+    4. Padding responsive
+    5. Color
+    6. Border
+    7. Gap
+    8. Font
+    9. Flex
+*/
+
+// 1. Margin
+.u-mb-0 {
+  margin-bottom: 0 !important;
+}
+.u-mb-9 {
+  margin-bottom: $PX_9 !important;
+}
+.u-mb-12 {
+  margin-bottom: $PX_12 !important;
+}
+.u-mb-15 {
+  margin-bottom: $PX_15 !important;
+}
+.u-mb-18 {
+  margin-bottom: $PX_18 !important;
+}
+.u-mb-30 {
+  margin-bottom: $PX_30 !important;
+}
+.u-mr-8 {
+  margin-right: $PX_8 !important;
+}
+.u-mr-42 {
+  margin-right: $PX_42 !important;
+}
+.u-mtb-48 {
+  margin-top: $PX_48 !important;
+  margin-bottom: $PX_48 !important;
+}
+
+// 2. Margin responsive
+@media screen and (max-width: $PX_990) {
+}
+
+// 3. Padding
+
+// 4. Padding responsive
+@media screen and (max-width: $PX_990) {
+}
+
+// 5. Color
+.u-color-green {
+  color: $GREEN !important;
+}
+.u-color-red {
+  color: $RED !important;
+}
+.u-color-white {
+  color: $WHITE !important;
+}
+
+// 6. Border
+
+// 7. Gap
+.u-gap-6 {
+  gap: $PX_6 !important;
+}
+.u-gap-8 {
+  gap: $PX_8 !important;
+}
+.u-gap-12 {
+  gap: $PX_12 !important;
+}
+.u-gap-16 {
+  gap: $PX_16 !important;
+}
+.u-gap-24 {
+  gap: $PX_24 !important;
+}
+.u-gap-32 {
+  gap: $PX_32 !important;
+}
+.u-gap-42 {
+  gap: $PX_42 !important;
+}
+
+// 8. Font
+.u-font-alt {
+  font-family: $FONT_DM_MEDIUM !important;
+}
+.u-font-16 {
+  font-size: $PX_16 !important;
+  line-height: $PX_24 !important;
+}
+.u-font-55 {
+  font-size: $PX_55 !important;
+  line-height: $PX_60 !important;
+}
+
+// 9. Flex
+.u-flex-sm {
+  max-width: $PX_890;
+  margin: 0 auto;
+}

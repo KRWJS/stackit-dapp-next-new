@@ -1,0 +1,96 @@
+/* #COMPONENT - BUTTON
+		1. Button default
+    2. Button sizes
+    3. Button variants
+    4. Button misc
+    5. Button responsive
+*/
+
+// 1. Button default
+.btn {
+  font-family: $FONT_DM_MEDIUM;
+  display: inline-flex;
+  appearance: none;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  position: relative;
+  white-space: nowrap;
+  vertical-align: middle;
+  outline: none;
+  border-radius: $PX_6;
+  transition: $TRANSITION_ALL;
+  cursor: pointer;
+  border: $PX_1 solid $TRANSPARENT;
+}
+.btn[disabled] {
+  cursor: not-allowed;
+}
+
+// 2. Button sizes
+.btn--xs {
+  height: $PX_24;
+  min-width: $PX_24;
+  padding-left: $PX_8;
+  padding-right: $PX_8;
+  font-size: $PX_12;
+}
+.btn--sm {
+  height: $PX_32;
+  min-width: $PX_32;
+  padding-left: $PX_12;
+  padding-right: $PX_12;
+  font-size: $PX_14;
+}
+.btn--md {
+  height: $PX_30;
+  min-width: $PX_30;
+  padding-left: $PX_24;
+  padding-right: $PX_24;
+  font-size: $PX_16;
+  line-height: $PX_24;
+  letter-spacing: $PX_0_25;
+}
+.btn--lg {
+  height: $PX_48;
+  min-height: $PX_48;
+  padding-left: $PX_24;
+  padding-right: $PX_24;
+  font-size: $PX_18;
+}
+
+// 3. Button variants
+.btn--green {
+  background-color: $GREEN;
+  color: $WHITE;
+}
+.btn--red {
+  background-color: $RED;
+  color: $BLACK;
+}
+.btn--black {
+  background-color: $BLACK;
+  color: $WHITE;
+}
+.btn--grey {
+  background-color: $BLACK_RGBA_LIGHT;
+  color: $BLACK_RGBA_DARK;
+}
+
+// 4. Button misc
+.btn--max {
+  background-color: $WHITE;
+  color: $BLACK;
+  height: $PX_50;
+  padding: $PX_16 $PX_24;
+}
+.btn--icon {
+  border-radius: 50%;
+  height: $PX_48;
+  width: $PX_48;
+  padding: 0;
+}
+
+// 5. Button responsive
+@media screen and (max-width: $PX_990) {
+}

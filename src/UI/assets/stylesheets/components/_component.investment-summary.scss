@@ -1,0 +1,50 @@
+/* #COMPONENT - INVESTMENT SUMMARY
+		1. Investment summary default
+    2. Investment summary responsive
+*/
+
+// 1. Investment summary default
+.investment-summary,
+.investment-summary__row {
+  display: flex;
+}
+.investment-summary {
+  flex-direction: column;
+  border-radius: $PX_6;
+  padding: $PX_24;
+  background-color: $LIGHT_GREY;
+  border-radius: $PX_6;
+  border: $PX_7 solid $WHITE;
+  box-shadow: $INVEST_BOX_SHADOW;
+  flex-basis: 50%;
+}
+.investment-summary h3 {
+  font-family: $FONT_MEDIUM;
+  font-size: $PX_16;
+  line-height: $PX_24;
+  margin-bottom: $PX_32;
+}
+.investment-summary__row {
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: $PX_20;
+}
+.investment-summary__row:nth-child(6) {
+  margin-bottom: $PX_32;
+  padding-top: $PX_20;
+  border-top: $PX_1 solid $BLACK_RGBA_LIGHT;
+}
+.investment-summary__row p {
+  font-size: $PX_14;
+  line-height: $PX_21;
+  color: $BLACK_RGBA_DARK;
+  letter-spacing: $PX_0_25;
+}
+.investment-summary__row p:last-child,
+.investment-summary__row:nth-child(6) p {
+  font-family: $FONT_BOLD;
+}
+
+// 2. Investment summary responsive
+@media screen and (max-width: $PX_990) {
+}

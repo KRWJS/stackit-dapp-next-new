@@ -1,0 +1,45 @@
+/* #LAYOUT - BANNER
+		1. Banner default
+    2. Banner sizes
+*/
+
+// 1. Banner default
+.l-banner {
+  width: 100%;
+  padding-top: $PX_32;
+  z-index: 2;
+  position: relative;
+  text-align: center;
+}
+.l-banner h1 {
+  font-size: $PX_48;
+  line-height: $PX_62;
+  font-family: $FONT_SEMIBOLD;
+  margin-bottom: $PX_18;
+  letter-spacing: 0.4px;
+  text-transform: capitalize;
+}
+.l-banner h1 span {
+  color: $GREY_PLACEHOLDER;
+}
+.l-banner h3 {
+  font-family: $FONT_MEDIUM;
+  font-size: $PX_16;
+  line-height: $PX_24;
+  color: $GREY;
+}
+.l-banner__container {
+  max-width: $PX_890;
+  margin: 0 auto;
+}
+
+// 2. Banner sizes
+.l-banner__container--sm {
+  max-width: $PX_890;
+}
+.l-banner__container--md {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: $PX_1310;
+}

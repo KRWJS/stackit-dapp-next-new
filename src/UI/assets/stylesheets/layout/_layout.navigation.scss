@@ -1,0 +1,20 @@
+/* #LAYOUT - NAVIGATION
+		1. Navigation default
+    2. Navigation responsive
+*/
+
+// 1. Navigation default
+.l-navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: $PX_1310;
+  width: 100%;
+  padding: $PX_20 0 0;
+}
+
+// 2. Navigation responsive
+@media screen and (max-width: $PX_990) {
+}

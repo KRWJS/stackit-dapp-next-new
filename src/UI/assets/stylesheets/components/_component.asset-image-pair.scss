@@ -1,0 +1,26 @@
+/* #COMPONENT - ASSET IMAGE PAIR
+		1. Asset image pair default
+    2. Asset image pair responsive
+*/
+
+// 1. Asset image pair default
+.asset-image-pair {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.asset-image-pair img {
+  height: $PX_36 !important;
+  width: $PX_36 !important;
+}
+.asset-image-pair picture:first-child {
+  z-index: 2;
+}
+.asset-image-pair picture:last-child {
+  position: relative;
+  left: -$PX_6;
+}
+
+// 2. Asset image pair responsive
+@media screen and (max-width: $PX_990) {
+}

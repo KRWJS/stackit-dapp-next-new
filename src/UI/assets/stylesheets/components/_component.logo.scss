@@ -1,0 +1,16 @@
+/* #COMPONENT - LOGO
+		1. Logo default
+    2. Logo responsive
+*/
+
+// 1. Logo default
+.logo a {
+  display: block;
+}
+.logo svg {
+  display: flex;
+}
+
+// 2. Logo responsive
+@media screen and (max-width: $PX_990) {
+}

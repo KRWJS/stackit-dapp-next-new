@@ -1,0 +1,27 @@
+/* #LAYOUT - GRID
+		1. Grid default
+		2. Grid columns
+		3. Grid rows
+    4. Grid responsive
+*/
+
+// 1. Grid default
+.l-grid {
+  display: grid;
+}
+
+// 2. Grid columns
+.l-grid--3-column {
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: $PX_16;
+}
+
+// 3. Grid rows
+.l-grid--2-row {
+  grid-template-rows: repeat(2, 1fr);
+  grid-row-gap: $PX_16;
+}
+
+// 4. Grid responsive
+@media screen and (max-width: $PX_990) {
+}

@@ -1,0 +1,26 @@
+/* #COMPONENT - PILL
+		1. Pill default
+    2. Pill responsive
+*/
+
+// 1. Pill default
+.pill {
+  background-color: $BLACK;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: $PX_5;
+  border-radius: $PX_56;
+  padding: $PX_8 $PX_12;
+}
+.pill p {
+  font-family: $FONT_BOLD;
+  line-height: $PX_17;
+  letter-spacing: 0.15682px;
+  font-size: $PX_12;
+  color: $WHITE;
+}
+
+// 2. Pill responsive
+@media screen and (max-width: $PX_990) {
+}

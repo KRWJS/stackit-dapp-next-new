@@ -1,0 +1,13 @@
+/* #LAYOUT - HEADER
+		1. Header default
+    2. Header responsive
+*/
+
+// 1. Header default
+.l-header {
+  width: 100%;
+}
+
+// 2. Header responsive
+@media screen and (max-width: $PX_990) {
+}

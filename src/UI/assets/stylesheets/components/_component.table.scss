@@ -1,0 +1,68 @@
+/* #COMPONENT - TABLE
+		1. Table default
+    2. Table transactions
+    3. Table responsive
+*/
+
+// 1. Table default
+.table {
+  margin-bottom: $PX_64;
+}
+.table,
+.table h6 {
+  font-family: $FONT_DM_MEDIUM;
+}
+.table picture {
+  display: flex;
+}
+.table img {
+  height: $PX_24;
+  width: $PX_24;
+}
+.table p {
+  font-size: $PX_16;
+  line-height: $PX_24;
+  letter-spacing: $PX_1;
+}
+.table .btn {
+  padding: $PX_12 $PX_16;
+  gap: $PX_28;
+}
+.table__header,
+.table__row {
+  display: flex;
+  align-items: center;
+  gap: $PX_8;
+}
+.table__header {
+  padding: $PX_20 0 $PX_8;
+  border-top: $PX_1 solid $GREY_TABLE_HEADER_BORDER;
+}
+.table__header h6 {
+  text-transform: uppercase;
+  font-size: $PX_12;
+  line-height: $PX_18;
+  color: $GREY_PLACEHOLDER;
+  letter-spacing: $PX_1;
+}
+.table__header h6,
+.table__column {
+  width: calc(100% / 4);
+}
+.table__header h6:last-child,
+.table__column:last-child {
+  text-align: right;
+}
+.table__row {
+  border-bottom: $PX_1 solid $GREY_TABLE_BORDER;
+  padding: $PX_21 0;
+}
+
+// 2. Table transactions
+.table--transactions .table__row {
+  padding: $PX_12 0;
+}
+
+// 3. Table responsive
+@media screen and (max-width: $PX_990) {
+}

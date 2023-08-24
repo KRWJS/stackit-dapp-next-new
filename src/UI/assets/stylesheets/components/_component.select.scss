@@ -1,0 +1,47 @@
+/* #COMPONENT - SELECT
+		1. Select default
+    2. Select responsive
+*/
+
+// 1. Select default
+.select__control {
+  border-radius: $PX_6 !important;
+  border: $PX_1 solid $TRANSPARENT !important;
+}
+.select__control--is-focused {
+  transition: border 0.3s ease-in-out;
+  box-shadow: none !important;
+  border: $PX_1 solid $GREY !important;
+}
+.select__option {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: $PX_4;
+}
+.select__option picture {
+  display: flex;
+}
+.select__option picture img {
+  height: $PX_24;
+  width: $PX_24;
+}
+.select__single-value {
+  margin: 0 !important;
+}
+.select__value-container {
+  padding: $PX_13 0 $PX_13 $PX_20 !important;
+}
+.select__indicator {
+  padding: 0 !important;
+}
+.select__indicator-separator {
+  display: none !important;
+}
+.select__indicators {
+  padding-right: $PX_20 !important;
+}
+
+// 2. Select responsive
+@media screen and (max-width: $PX_990) {
+}

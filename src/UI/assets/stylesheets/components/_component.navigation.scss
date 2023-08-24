@@ -1,0 +1,41 @@
+/* #COMPONENT - NAVIGATION
+		1. Navigation default
+    2. Navigation row
+    3. Navigation column
+    4. Navigation responsive
+*/
+
+// 1. Navigation default
+.nav,
+.nav a,
+.nav a picture {
+  display: flex;
+}
+.nav a {
+  font-family: $FONT_MEDIUM;
+  font-size: $PX_16;
+  line-height: $PX_24;
+  color: $GREY;
+  transition: $TRANSITION_ALL;
+  text-transform: capitalize;
+  border-bottom: $PX_1 solid $TRANSPARENT;
+}
+.nav a.is-active {
+  color: $BLACK;
+  border-bottom: $PX_1 solid $BLACK;
+}
+
+// 2. Navigation row
+.nav--row {
+  flex-direction: row;
+  align-items: center;
+}
+
+// 3. Navigation column
+.nav--column {
+  flex-direction: column;
+}
+
+// 4. Navigation responsive
+@media screen and (max-width: $PX_990) {
+}

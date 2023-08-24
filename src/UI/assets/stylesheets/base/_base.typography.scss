@@ -1,0 +1,37 @@
+/* #BASE - TYPOGRAPHY
+		1. Typography default
+    2. Typography responsive
+*/
+
+// 1. Typography default
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  word-break: break-word;
+  word-wrap: break-word;
+  font-weight: normal;
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $FONT_BOLD;
+}
+p,
+label {
+  font-size: $PX_12;
+}
+label {
+  font-family: $FONT_LIGHT;
+}
+
+// 2. Typography responsive
+@media screen and (max-width: $PX_990) {
+}

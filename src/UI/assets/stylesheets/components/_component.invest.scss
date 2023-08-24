@@ -1,0 +1,66 @@
+/* #COMPONENT - INVEST
+		1. Invest default
+    2. Invest panel tokens
+    3. Invest responsive
+*/
+
+// 1. Invest default
+.invest {
+  display: flex;
+  flex-direction: column;
+  gap: $PX_6;
+  flex-basis: 50%;
+  background-color: $INVEST_BG;
+  border-radius: $PX_6;
+  border: $PX_7 solid $WHITE;
+  box-shadow: $INVEST_BOX_SHADOW;
+}
+.invest__panel {
+  background-color: $LIGHT_GREY;
+  border-radius: $PX_6;
+  padding: $PX_21 $PX_24;
+}
+.invest__panel label,
+.invest__panel h3 {
+  font-family: $FONT_MEDIUM;
+  line-height: $PX_24;
+  font-size: $PX_16;
+}
+.invest__panel h3 {
+  margin-bottom: $PX_8;
+}
+
+// 2. Invest panel tokens
+.invest__panel--tokens,
+.invest__upper,
+.invest__lower {
+  display: flex;
+}
+.invest__panel--tokens {
+  flex-direction: column;
+}
+.invest__upper,
+.invest__lower {
+  justify-content: space-between;
+}
+.invest__upper label {
+  margin-bottom: $PX_8;
+  display: block;
+}
+.invest__lower {
+  align-items: center;
+  gap: $PX_16;
+}
+.invest__lower .select {
+  width: 50%;
+}
+.invest__panel--amount p {
+  font-size: $PX_14;
+  margin-top: $PX_9;
+  margin-bottom: 0;
+  color: $BLACK_RGBA_DARK;
+}
+
+// 3. Invest responsive
+@media screen and (max-width: $PX_990) {
+}

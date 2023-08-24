@@ -1,0 +1,28 @@
+/* #COMPONENT - TABS
+		1. Tabs default
+    5. Tabs responsive
+*/
+
+// 1. Tabs default
+.tabs__nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.tabs__nav .btn--tab {
+  font-family: $FONT_REGULAR;
+  letter-spacing: $PX_0_25;
+  font-size: $PX_16;
+  background-color: $WHITE;
+  color: $BLACK;
+  padding: $PX_8 $PX_12;
+  width: calc(100% / 4);
+}
+.tabs__nav .btn--tab.is-active {
+  background-color: $LIGHT_GREEN;
+  color: $DARK_GREEN;
+}
+
+// 2. Tabs responsive
+@media screen and (max-width: $PX_990) {
+}

@@ -1,0 +1,56 @@
+/* #COMPONENTS - MODAL
+		1. Modal default
+    2. Modal disclaimer
+    3. Modal manage position
+    4. Modal responsive
+*/
+
+// 1. Modal default
+.modal {
+  background-color: $WHITE;
+  margin: auto;
+  border-radius: $PX_6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.modal p {
+  font-size: $PX_14;
+  color: $BLACK;
+  margin-bottom: $PX_16;
+}
+
+// 2. Modal disclaimer
+.modal--disclaimer {
+  padding: $PX_16;
+  max-width: $PX_320;
+  align-items: center;
+}
+
+// 3. Modal manage position
+.modal--manage-position {
+  padding: $PX_21;
+  max-width: $PX_464;
+  align-items: flex-start;
+  width: 100%;
+}
+.modal--manage-position h2 {
+  font-family: $FONT_SEMIBOLD;
+  font-size: $PX_32;
+  line-height: $PX_38;
+  margin-bottom: $PX_16;
+}
+.modal--manage-position p {
+  margin-bottom: 0;
+}
+.modal--manage-position .invest__panel,
+.modal--manage-position .l-flex {
+  width: 100%;
+}
+.modal--manage-position .btn {
+  width: 100%;
+}
+
+// 4. Modal responsive
+@media screen and (max-width: $PX_990) {
+}

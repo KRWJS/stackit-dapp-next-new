@@ -1,0 +1,60 @@
+/* #COMPONENT - INPUT NUMBER
+		1. Input number default
+    2. Input number responsive
+*/
+
+// 1. Input number default
+.input-number,
+.input-number__wrapper {
+  display: flex;
+  gap: $PX_8;
+}
+.input-number {
+  flex-direction: column;
+}
+.input-number input {
+  transition: $TRANSITION_ALL;
+  flex: 1;
+  appearance: textfield;
+  padding: $PX_13 $PX_12;
+  color: $BLACK;
+  font-size: $PX_18;
+  font-family: $FONT_REGULAR;
+  border-radius: $PX_6;
+  border: $PX_1 solid $TRANSPARENT;
+}
+.input-number input:focus {
+  outline: 0;
+  border: $PX_1 solid $BLACK_RGBA_DARK;
+}
+.input-number input::placeholder {
+  color: $GREY_PLACEHOLDER;
+}
+.input-number input::-webkit-outer-spin-button,
+.input-number input::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+.input-number__wrapper {
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+}
+.input-number__wrapper--addon input {
+  padding: $PX_13 $PX_12 $PX_13 $PX_46;
+}
+.input-number__wrapper picture {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: $PX_12;
+  transform: translate(0%, -50%);
+}
+.input-number__wrapper picture img {
+  height: $PX_24;
+  width: $PX_24;
+}
+
+// 2. Input number responsive
+@media screen and (max-width: $PX_990) {
+}

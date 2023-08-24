@@ -1,0 +1,108 @@
+/* #SETTINGS - FONTS
+		1. Font import
+    2. Font family variables
+*/
+
+// 1. Font import
+@font-face {
+  font-family: 'Inter ExtraLight';
+  src: url('../../fonts/Inter-ExtraLight.woff2') format('woff2'),
+    url('../../fonts/Inter-ExtraLight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter Bold';
+  src: url('../../fonts/Inter-Bold.woff2') format('woff2'),
+    url('../../fonts/Inter-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter Black';
+  src: url('../../fonts/Inter-Black.woff2') format('woff2'),
+    url('../../fonts/Inter-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter ExtraBold';
+  src: url('../../fonts/Inter-ExtraBold.woff2') format('woff2'),
+    url('../../fonts/Inter-ExtraBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter Regular';
+  src: url('../../fonts/Inter-Regular.woff2') format('woff2'),
+    url('../../fonts/Inter-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter Light';
+  src: url('../../fonts/Inter-Light.woff2') format('woff2'),
+    url('../../fonts/Inter-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter Medium';
+  src: url('../../fonts/Inter-Medium.woff2') format('woff2'),
+    url('../../fonts/Inter-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter Thin';
+  src: url('../../fonts/Inter-Thin.woff2') format('woff2'),
+    url('../../fonts/Inter-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter SemiBold';
+  src: url('../../fonts/Inter-SemiBold.woff2') format('woff2'),
+    url('../../fonts/Inter-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DM Mono Medium';
+  src: url('../../fonts/DMMono-Medium.woff2') format('woff2'),
+    url('../../fonts/DMMono-Medium.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+// 2. Font family variables
+$FONT_EXTRALIGHT: 'Inter ExtraLight';
+$FONT_BOLD: 'Inter Bold';
+$FONT_BLACK: 'Inter Black';
+$FONT_EXTRABOLD: 'Inter ExtraBold';
+$FONT_REGULAR: 'Inter Regular';
+$FONT_LIGHT: 'Inter Light';
+$FONT_MEDIUM: 'Inter Medium';
+$FONT_THIN: 'Inter Thin';
+$FONT_SEMIBOLD: 'Inter SemiBold';
+
+$FONT_DM_MEDIUM: 'DM Mono Medium';
